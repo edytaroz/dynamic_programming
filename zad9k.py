@@ -1,6 +1,5 @@
 from zad9ktesty import runtests
 
-
 def suma(T,q,g,i):
     d = max(q, g)
     count = [[0 for _ in range(i+1)] for _ in range(d+1)]
