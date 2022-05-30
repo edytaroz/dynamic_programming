@@ -1,5 +1,6 @@
 from zad12ktesty import runtests 
 
+
 def rek(P,T,i,k):
     if i == 0:
         return 0
