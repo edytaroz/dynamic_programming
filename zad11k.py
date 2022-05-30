@@ -1,36 +1,5 @@
 from zad11ktesty import runtests
 
-def get_sum(T,sum):
-    n = len(T)
-    t = [[False for _ in range(n+1)] for _ in range(sum+1)]
-    for i in range(n):
-        if T[i] < sum + 1:
-            t[T[i]][0] = True
-    for i in range(1,n+1):
-        for j in range(sum+1):
-            if T[i] < ...:
-                ...
-
-def suma(T):
-    n = len(T)
-    sumaa = 0
-    for i in range(n):
-        sumaa += T[i]
-    rem = 0
-    flag = False
-    for i in range(sumaa//2,-1,-1):
-        if not flag:
-            if get_sum(T,i):
-                rem = i
-                flag = True
-    return (sumaa - rem*2)//2
-
-def rek(T,i,sum1,sum2):
-    if i >= len(T) - 1:
-        return abs(sum1-sum2)
-    else:
-        return min(rek(T,i+1,sum1+T[i+1],sum2),rek(T,i+1,sum1,sum2+T[i+1]))
-
 def dyn(T):
     n = len(T)
     print(T)
@@ -57,7 +26,7 @@ def dyn(T):
 def kontenerowiec(T):
     #Tutaj proszę wpisać własną implementację
     return dyn(T)
-    #return rek(T,-1,0,0)
+
 
 runtests ( kontenerowiec )
     
