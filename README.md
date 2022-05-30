@@ -11,3 +11,5 @@ Prom ma dwa pasy, chcemy aby jak najwięcej samochodów na niego wjechało
 \break\
 Zadanie 4
 Głodna żaba skacze po liliach, czy może dotrzeć do końca? w ilu najmniej skokach?
+\break\
+Zadania z końcówką k są w pliku Zadania-2
