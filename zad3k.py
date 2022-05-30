@@ -1,5 +1,6 @@
 from zad3ktesty import runtests
 
+
 def fun(T,k):
     n = len(T)
     tab = [[0,0] for _ in range(n)]
