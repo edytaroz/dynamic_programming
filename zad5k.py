@@ -1,5 +1,6 @@
 from zad5ktesty import runtests
 
+
 def fun(A):
     n = len(A)
     a = 0
